@@ -7,7 +7,11 @@
  */
 
 // Your code:
-
+let total = (num) => {
+  const array1 = num;
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+  return array1.reduce(reducer);
+};
 //* Begin of tests
 const assert = require('assert');
 
