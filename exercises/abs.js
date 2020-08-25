@@ -10,7 +10,13 @@
  */
 
 // Your code:
-
+let abs = (num) => {
+  if (num < 0) {
+    return num - (num + num);
+  } else {
+    return num;
+  }
+};
 //* Begin of tests
 const assert = require('assert');
 
